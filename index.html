@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristal Azul Piscinas - Luxo e Qualidade em Seu Jardim</title>
+    <meta name="description" content="Cristal Azul Piscinas - Projetos personalizados, instalação profissional e manutenção especializada. Transforme seu sonho em realidade.">
+    
+    <!-- Pré-conexão para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fontes Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de Acessibilidade -->
+    <div class="accessibility-bar">
+        <button id="font-increase" aria-label="Aumentar fonte">A+</button>
+        <button id="font-decrease" aria-label="Diminuir fonte">A-</button>
+        <button id="high-contrast" aria-label="Alto contraste">Contraste</button>
+    </div>
+    
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="./images/cristalazul.png" alt="Cristal Azul Piscinas" class="logo">
+                    <span class="sr-only">Cristal Azul Piscinas</span>
+                </a>
+            </div>
+            
+            <!-- Navegação Principal -->
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-navigation">
+                    <span class="sr-only">Menu</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul id="primary-navigation" class="nav-list" data-visible="false">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="produtos.html">Produtos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="piscinas-fibra.html">Piscinas em Fibra</a></li>
+                            <li><a href="piscinas-vinil.html">Piscinas de Vinil</a></li>
+                            <li><a href="piscinas-concreto.html">Piscinas de Concreto</a></li>
+                            <li><a href="acessorios.html">Acessórios</a></li>
+                            <li><a href="tratamento.html">Sistemas de Tratamento</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="btn-quote" id="header-quote">Orçamento Grátis</button>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/cristalazulpiscinas/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5561996814800" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <div class="slide-content">
+                        <h1>Piscinas Sob Medida para Seu Estilo de Vida</h1>
+                        <p>Projetos exclusivos que combinam design, tecnologia e qualidade</p>
+                        <a href="produtos.html" class="btn-primary">Conheça Nossos Modelos</a>
+                    </div>
+                </div>
+                <div class="slide active">
+                    <div class="slide-content">
+                        <h1>Realize o sonho de transformar o seu espaço</h1>
+                        <p>Temos produtos e serviços sob medida para você</p>
+                        <a href="services.html" class="btn-primary">Conheça Nossos Modelos</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1>Sistema de Tratamento Inteligente</h1>
+                        <p>Água cristalina com mínimo esforço e máxima eficiência</p>
+                        <a href="tratamento.html" class="btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h1>Promoção de Verão</h1>
+                        <p>Confira nossas promoções! Temos o modelo de piscina ideal para você!</p>
+                        <a href="promocoes.html" class="btn-primary">Aproveite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots"></div>
+                <button class="slider-next" aria-label="Próximo slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        
+        <!-- Destaques -->
+        <section class="highlights">
+            <div class="container">
+                <div class="highlight-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>Experiência Comprovada</h3>
+                    <p>Mais de 500 piscinas instaladas em toda a região</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Garantia Estendida</h3>
+                    <p>Até 10 anos de garantia em nossas piscinas de fibra</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Manutenção Especializada</h3>
+                    <p>Equipe técnica disponível para melhor atendê-lo</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Tecnologia Sustentável</h3>
+                    <p>Sistemas que reduzem em até 70% o consumo de água</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Produtos em Destaque -->
+        <section class="featured-products">
+            <div class="section-header">
+                <h2>Nossas Linhas de Piscinas</h2>
+                <p>Descubra a perfeita para seu espaço e orçamento</p>
+            </div>
+            
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./images/piscinafibra.jpg" alt="Piscina de Fibra">
+                        <div class="product-badge">Mais Vendida</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Linha Fibra Cristal</h3>
+                        <p>Instalação rápida, superfície lisa e durável, disponível em diversos formatos</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Garantia de 10 anos</li>
+                            <li><i class="fas fa-check"></i> Instalação em 48h</li>
+                            <li><i class="fas fa-check"></i> 15 cores disponíveis</li>
+                        </ul>
+                        <div class="product-actions">
+                            <a href="piscinas-fibra.html" class="btn-secondary">Detalhes</a>
+                         
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./images/piscinafibra2.jpg" alt="Piscina de Vinil">
+                        <div class="product-badge">Econômica</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Linha Fibra Premium</h3>
+                        <p>Custo-benefício excelente com acabamento sofisticado e personalizado</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Garantia de 7 anos</li>
+                            <li><i class="fas fa-check"></i> Formatos personalizados</li>
+                            <li><i class="fas fa-check"></i> Manutenção simplificada</li>
+                        </ul>
+                        <div class="product-actions">
+                            <a href="piscinas-vinil.html" class="btn-secondary">Detalhes</a>
+                            
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="./images/piscinafibra3.jpg" alt="Piscina de Concreto">
+                        <div class="product-badge">Luxo</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Linha Fibra Elite</h3>
+                        <p>Soluções sob medida para projetos arquitetônicos exclusivos</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Design 100% personalizado</li>
+                            <li><i class="fas fa-check"></i> Acabamentos premium</li>
+                            <li><i class="fas fa-check"></i> Integração com paisagismo</li>
+                        </ul>
+                        <div class="product-actions">
+                            <a href="piscinas-concreto.html" class="btn-secondary">Detalhes</a>
+                            
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-footer">
+                <a href="produtos.html" class="btn-primary">Ver Todos os Produtos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+        
+        </section>
+        
+        <!-- Projetos Realizados -->
+        <section class="projects-section">
+            <div class="section-header">
+                <h2>Projetos Realizados</h2>
+                <p>Inspire-se com nossas criações</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="./images/residencial1.jpg" alt="Projeto Residencial Alphaville">
+                    <div class="project-overlay">
+                        <h3>Residencial Alphaville</h3>
+                        <p>Piscina infinity edge com spa integrado</p>
+                        <a href="projeto-alphaville.html" class="btn-project">Ver Projeto</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/residencial2.jpg" alt="Projeto Condomínio Green Valley">
+                    <div class="project-overlay">
+                        <h3>Condomínio Green Valley</h3>
+                        <p>Piscina olímpica com sistema de aquecimento solar</p>
+                        <a href="projeto-green-valley.html" class="btn-project">Ver Projeto</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="./images/condominio3.jpg" alt="Projeto Hotel Praia Dourada">
+                    <div class="project-overlay">
+                        <h3>Hotel Praia Dourada</h3>
+                        <p>Complexo com 3 piscinas e toboáguas</p>
+                        <a href="projeto-hotel.html" class="btn-project">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <a href="projetos.html" class="btn-primary">Ver Todos os Projetos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+        
+        <!-- Depoimentos -->
+        <section class="testimonials">
+            <div class="section-header">
+                <h2>O Que Nossos Clientes Dizem</h2>
+                <p>A satisfação que nos impulsiona</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"A Cristal Azul transformou nosso quintal em um oásis. A piscina ficou perfeita e o atendimento foi impecável do início ao fim."</p>
+                    <div class="testimonial-author">
+                        <img src="./images/depoimento1.png" alt="Fernanda Silva">
+                        <div>
+                            <h4>Fernanda Silva</h4>
+                            <span>Residencial Granja Viana</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Como arquiteto, exijo muito dos fornecedores. A Cristal Azul superou todas as expectativas no projeto do condomínio que assinamos."</p>
+                    <div class="testimonial-author">
+                        <img src="./images/depoimento2.jpeg" alt="Ricardo Almeida">
+                        <div>
+                            <h4>Ricardo Almeida</h4>
+                            <span>Arquiteto - RMA Projetos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Comprei uma piscina de fibra há 5 anos e continua como nova. Sempre que preciso de manutenção, a equipe é rápida e eficiente."</p>
+                    <div class="testimonial-author">
+                        <img src="./images/depoimento3.jpg" alt="Carlos Mendonça">
+                        <div>
+                            <h4>Carlos Mendonça</h4>
+                            <span>Residencial Tamboré</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-content">
+                    <h2>Perguntas Frequentes</h2>
+                    
+                    <div class="faq-accordion">
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+                                Quanto tempo dura a instalação de uma piscina?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer" id="faq1">
+                                <p>O tempo de instalação varia conforme o tipo de piscina. Nossas piscinas de fibra têm instalação mais rápida, geralmente concluída em 2-3 dias. Piscinas de vinil levam em média 1 semana, enquanto as de concreto, por serem personalizadas, podem levar de 4 a 8 semanas dependendo da complexidade do projeto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+                                Qual a manutenção necessária?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer" id="faq2">
+                                <p>Todas as piscinas requerem manutenção básica como limpeza, ajuste de pH e cloração. Nossos sistemas modernos reduzem significativamente o trabalho manual. Oferecemos pacotes de manutenção que podem ser semanais, quinzenais ou mensais, conforme sua necessidade. Piscinas com tratamento por ozônio ou sal exigem menos manutenção química.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+                                Posso instalar uma piscina em qualquer terreno?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer" id="faq3">
+                                <p>Realizamos uma avaliação técnica gratuita para verificar as condições do terreno. A maioria dos terrenos é adequada, mas em casos de solo muito irregular ou instável, podem ser necessárias intervenções como contenções ou drenagem. Nossa equipe de engenheiros pode orientar a melhor solução para seu caso específico.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+                                Quais os custos adicionais além da piscina?
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="faq-answer" id="faq4">
+                                <p>Além do valor da piscina, você deve considerar: preparação do terreno (quando necessária), sistema de filtragem, aquecedor (opcional), capa de proteção, produtos de tratamento, energia elétrica para operação do sistema e água para reposição (em média 3-5% do volume mensal). Durante o orçamento, detalhamos todos esses custos para que não haja surpresas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-image">
+                    <a href="index.html">
+                    <img src="./images/cristalazul1.png" alt="Piscina Cristal Azul">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Pronto para Transformar Seu Espaço?</h2>
+                    <p>Solicite um orçamento sem compromisso e receba uma proposta personalizada</p>
+                    
+                    <form class="cta-form" id="quick-quote">
+                        <div class="form-group">
+                            <input type="text" id="cta-name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="cta-email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="cta-phone" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="cta-product" required>
+                                <option value="">Selecione o produto de interesse</option>
+                                <option value="fibra">Piscinas de Fibra</option>
+                                <option value="vinil">Piscinas de Vinil</option>
+                                <option value="concreto">Piscinas de Concreto</option>
+                                <option value="tratamento">Sistemas de Tratamento</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Solicitar Orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Blog Preview -->
+        <section class="blog-preview">
+            <div class="section-header">
+                <h2>Dicas e Novidades</h2>
+                <p>Aprenda mais sobre piscinas em nosso blog</p>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="./images/blog1.jpg" alt="Preparando sua piscina para o verão">
+                    <div class="blog-content">
+                        <span class="blog-category">Manutenção</span>
+                        <h3><a href="blog-post.html">Preparando Sua Piscina para o Verão</a></h3>
+                        <p class="blog-excerpt">Confira o checklist essencial para deixar sua piscina perfeita para a temporada de calor...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar-alt"></i> 15/09/2023</span>
+                            <span><i class="far fa-clock"></i> 5 min leitura</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="./images/blog2.jpg" alt="Tendências em design de piscinas">
+                    <div class="blog-content">
+                        <span class="blog-category">Design</span>
+                        <h3><a href="blog-post.html">Tendências em Design de Piscinas para 2024</a></h3>
+                        <p class="blog-excerpt">Descubra as inovações que estão transformando o conceito de piscinas residenciais...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar-alt"></i> 02/09/2023</span>
+                            <span><i class="far fa-clock"></i> 7 min leitura</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="./images/blog3.png" alt="Piscinas e sustentabilidade">
+                    <div class="blog-content">
+                        <span class="blog-category">Sustentabilidade</span>
+                        <h3><a href="blog-post.html">Como Ter uma Piscina Sustentável</a></h3>
+                        <p class="blog-excerpt">Tecnologias que reduzem o consumo de água e energia sem abrir mão do conforto...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar-alt"></i> 25/08/2023</span>
+                            <span><i class="far fa-clock"></i> 6 min leitura</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-footer">
+                <a href="blog.html" class="btn-primary">Ver Todos os Artigos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-column">
+                    <a href="index.html">
+                    <img src="./images/cristalazul.png" alt="Cristal Azul Piscinas" class="footer-logo">
+                    <p>Transformando sonhos em realidade. Piscinas de qualidade que unem beleza, durabilidade e tecnologia.</p>
+                    </a>
+                    
+                    <div class="footer-social">
+                        <span>Siga-nos:</span>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/cristalazulpiscinas/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                       
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Produtos</h3>
+                    <ul class="footer-links">
+                        <li><a href="piscinas-fibra.html">Piscinas de Fibra</a></li>
+                        <li><a href="piscinas-vinil.html">Piscinas de Vinil</a></li>
+                        <li><a href="piscinas-concreto.html">Piscinas de Concreto</a></li>
+                        <li><a href="acessorios.html">Acessórios</a></li>
+                        <li><a href="tratamento.html">Sistemas de Tratamento</a></li>
+                        <li><a href="iluminacao.html">Iluminação</a></li>
+                        <li><a href="aquecimento.html">Aquecimento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> Rua das Piscinas, 123 - Samambaia N, Brasília-DF</li>
+                        <li><i class="fas fa-phone-alt"></i> (61) 1234-5678</li>
+                        <li><i class="fas fa-mobile-alt"></i> (61) 99681-4800</li>
+                        <li><i class="fas fa-envelope"></i> contato@cristalazulpiscinas.com.br</li>
+                        <li><i class="fas fa-clock"></i> Seg-Sex: 8h às 18h | Sáb: 9h às 13h</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-payments">
+                    <span>Formas de pagamento:</span>
+                    <img src="./images/payform.png" alt="Formas de pagamento">
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Cristal Azul Piscinas. Todos os direitos reservados. CNPJ: 12.345.678/0001-99 | Desenvolvido por Marcelo Ramos</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- WhatsApp Fixed Button -->
+    <a href="https://wa.me/5561996814800" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Modal Orçamento -->
+    <div class="modal" id="quote-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <button class="modal-close" aria-label="Fechar modal">&times;</button>
+            
+            <div class="modal-content">
+                <h2>Solicite um Orçamento</h2>
+                <p>Preencha o formulário abaixo e nossa equipe entrará em contato em até 24h.</p>
+                
+                <form id="quote-form">
+                    <div class="form-group">
+                        <label for="modal-name">Nome completo*</label>
+                        <input type="text" id="modal-name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="modal-email">E-mail*</label>
+                            <input type="email" id="modal-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-phone">Telefone*</label>
+                            <input type="tel" id="modal-phone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="modal-product">Produto de interesse*</label>
+                        <select id="modal-product" required>
+                            <option value="">Selecione...</option>
+                            <option value="fibra">Piscina de Fibra</option>
+                            <option value="vinil">Piscina de Vinil</option>
+                            <option value="concreto">Piscina de Concreto</option>
+                            <option value="tratamento">Sistema de Tratamento</option>
+                            <option value="acessorios">Acessórios</option>
+                            <option value="manutencao">Serviços de Manutenção</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="modal-message">Mensagem</label>
+                        <textarea id="modal-message" rows="4" placeholder="Detalhes sobre seu projeto, medidas aproximadas, preferências..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Enviar Solicitação</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   <!-- JavaScript -->
+<script src="js/main.js" defer></script> 
+</body>
+</html>

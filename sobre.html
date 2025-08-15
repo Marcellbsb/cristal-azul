@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags e links de CSS (idênticos ao index.html) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Cristal Azul Piscinas</title>
+    <meta name="description" content="Conheça a Cristal Azul Piscinas - 15 anos de experiência em projetos personalizados, instalação profissional e manutenção especializada.">
+    
+    <!-- Pré-conexão para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fontes Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de Acessibilidade -->
+    <div class="accessibility-bar">
+        <button id="font-increase" aria-label="Aumentar fonte">A+</button>
+        <button id="font-decrease" aria-label="Diminuir fonte">A-</button>
+        <button id="high-contrast" aria-label="Alto contraste">Contraste</button>
+    </div>
+    
+    <!-- Header (idêntico ao index.html) -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="./images/cristalazul.png" alt="Cristal Azul Piscinas" class="logo">
+                    <span class="sr-only">Cristal Azul Piscinas</span>
+                </a>
+            </div>
+            
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-navigation">
+                    <span class="sr-only">Menu</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul id="primary-navigation" class="nav-list" data-visible="false">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="produtos.html">Produtos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="piscinas-fibra.html">Piscinas em Fibra</a></li>
+                            <li><a href="piscinas-vinil.html">Piscinas de Vinil</a></li>
+                            <li><a href="piscinas-concreto.html">Piscinas de Concreto</a></li>
+                            <li><a href="acessorios.html">Acessórios</a></li>
+                            <li><a href="tratamento.html">Sistemas de Tratamento</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre.html" class="active">Sobre Nós</a></li>
+                    
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="btn-quote" id="header-quote">Orçamento Grátis</button>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/cristalazulpiscinas/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5561996814800" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal da Página Sobre Nós -->
+    <main>
+        <!-- Hero Section Específica para Sobre Nós -->
+        <section class="about-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Nossa História na Cristal Azul</h1>
+                    <p>15 anos transformando sonhos em realidade através de piscinas de alta qualidade</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Nossa História -->
+        <section class="about-history">
+            <div class="container">
+                <div class="section-header">
+                    <h2>De Pequena Empresa a Referência no Mercado</h2>
+                    <p>Conheça nossa trajetória de sucesso</p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2009</div>
+                        <div class="timeline-content">
+                            <h3>Fundada em um Garagem</h3>
+                            <p>Começamos nossa jornada em Samambaia, Brasília, com uma pequena equipe de 3 pessoas e a missão de oferecer piscinas de qualidade a preços acessíveis.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">2012</div>
+                        <div class="timeline-content">
+                            <h3>Primeira Piscina de Fibra</h3>
+                            <p>Lançamos nossa linha de piscinas em fibra de vidro, revolucionando o mercado com instalação rápida e manutenção simplificada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">2016</div>
+                        <div class="timeline-content">
+                            <h3>Expansão para Todo o DF</h3>
+                            <p>Ampliamos nossa atuação para todo o Distrito Federal, atendendo mais de 100 clientes por ano.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">2020</div>
+                        <div class="timeline-content">
+                            <h3>Prêmio de Excelência</h3>
+                            <p>Recebemos o prêmio "Melhor Empresa do Setor" pela Associação Brasileira de Piscinas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h3>500+ Piscinas Instaladas</h3>
+                            <p>Ultrapassamos a marca de 500 piscinas instaladas, consolidando nossa reputação como líder no segmento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Nossa Equipe -->
+        <section class="team-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Conheça Nossa Equipe</h2>
+                    <p>Profissionais qualificados que fazem a diferença</p>
+                </div>
+                
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="./images/equipe1.jpg" alt="Célio Ramos - Fundador">
+                        </div>
+                        <div class="team-info">
+                            <h3>Célio Ramos</h3>
+                            <span class="team-role">Fundador e CEO</span>
+                            <p>Engenheiro civil com especialização em projetos aquáticos, lidera a empresa desde sua fundação.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="./images/equipe2.jpg" alt="Leidiane Ramos - Diretora de Projetos">
+                        </div>
+                        <div class="team-info">
+                            <h3>Leidiane Ramos</h3>
+                            <span class="team-role">Diretora de Projetos</span>
+                            <p>12 anos de experiência em design de piscinas personalizadas e integração paisagística.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="./images/equipe3.jpg" alt="Silvio Ramos - Supervisor Técnico">
+                        </div>
+                        <div class="team-info">
+                            <h3>Silvio Ramos</h3>
+                            <span class="team-role">Supervisor Técnico</span>
+                            <p>Responsável pela qualidade das instalações e treinamento da equipe de campo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Valores -->
+        <section class="values-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nossos Valores</h2>
+                    <p>O que nos guia em cada projeto</p>
+                </div>
+                
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Qualidade</h3>
+                        <p>Utilizamos apenas materiais de primeira linha e técnicas comprovadas.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Transparência</h3>
+                        <p>Orçamentos detalhados sem surpresas ou custos ocultos.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sustentabilidade</h3>
+                        <p>Sistemas que reduzem consumo de água e energia em até 70%.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Satisfação</h3>
+                        <p>Garantia de 10 anos e suporte pós-venda permanente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Diferenciais -->
+        <section class="differentials-section">
+            <div class="container">
+                <div class="differentials-content">
+                    <div class="differentials-text">
+                        <h2>O Que Nos Diferencia</h2>
+                        <ul class="differentials-list">
+                            <li><i class="fas fa-check-circle"></i> Equipe própria de instalação (não terceirizada)</li>
+                            <li><i class="fas fa-check-circle"></i> Projetos 3D personalizados antes da compra</li>
+                            <li><i class="fas fa-check-circle"></i> Manutenção preventiva inclusa no primeiro ano</li>
+                            <li><i class="fas fa-check-circle"></i> Atendimento emergencial 24 horas</li>
+                            <li><i class="fas fa-check-circle"></i> Parcelamento em até 60 meses</li>
+                        </ul>
+                    </div>
+                    <div class="differentials-image">
+                        <img src="./images/diferencial.jpg" alt="Equipe Cristal Azul trabalhando">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Final -->
+        <section class="about-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Pronto para Iniciar Seu Projeto?</h2>
+                    <p>Agende uma visita técnica sem compromisso com nossos especialistas</p>
+                    <div class="cta-buttons">
+                        <a href="contato.html" class="btn-primary">Fale Conosco</a>
+                        <a href="projetos.html" class="btn-secondary">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (idêntico ao index.html) -->
+   <!-- Footer -->
+   <footer class="main-footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-column">
+                <a href="index.html">
+                <img src="./images/cristalazul.png" alt="Cristal Azul Piscinas" class="footer-logo">
+                <p>Transformando sonhos em realidade. Piscinas de qualidade que unem beleza, durabilidade e tecnologia.</p>
+                </a>
+                
+                <div class="footer-social">
+                    <span>Siga-nos:</span>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/cristalazulpiscinas/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                   
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Produtos</h3>
+                <ul class="footer-links">
+                    <li><a href="piscinas-fibra.html">Piscinas de Fibra</a></li>
+                    <li><a href="piscinas-vinil.html">Piscinas de Vinil</a></li>
+                    <li><a href="piscinas-concreto.html">Piscinas de Concreto</a></li>
+                    <li><a href="acessorios.html">Acessórios</a></li>
+                    <li><a href="tratamento.html">Sistemas de Tratamento</a></li>
+                    <li><a href="iluminacao.html">Iluminação</a></li>
+                    <li><a href="aquecimento.html">Aquecimento</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Rua das Piscinas, 123 - Samambaia N, Brasília-DF</li>
+                    <li><i class="fas fa-phone-alt"></i> (61) 1234-5678</li>
+                    <li><i class="fas fa-mobile-alt"></i> (61) 99681-4800</li>
+                    <li><i class="fas fa-envelope"></i> contato@cristalazulpiscinas.com.br</li>
+                    <li><i class="fas fa-clock"></i> Seg-Sex: 8h às 18h | Sáb: 9h às 13h</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-payments">
+                <span>Formas de pagamento:</span>
+                <img src="./images/payform.png" alt="Formas de pagamento">
+            </div>
+            
+            <div class="footer-copyright">
+                <p>&copy; 2025 Cristal Azul Piscinas. Todos os direitos reservados. CNPJ: 12.345.678/0001-99 | Desenvolvido por Marcelo Ramos</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- WhatsApp Fixed Button -->
+    <a href="https://wa.me/5561996814800" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal Orçamento (idêntico ao index.html) -->
+    <div class="modal" id="quote-modal" aria-hidden="true">
+        <!-- ... mesmo modal do index.html ... -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
